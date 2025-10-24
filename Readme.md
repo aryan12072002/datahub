@@ -105,7 +105,6 @@ celery -A datahub beat -l info
 | Endpoint | Method | Description |
 |----------|--------|-------------|
 | `/api/data_sources/` | POST | Register a new data source |
-| `/api/fetch/<id>/` | POST | Manually trigger data fetch for a source |
 | `/api/stats/` | GET | Get total records, data sources, average update time |
 
 **Example Response for `/api/stats/`:**
